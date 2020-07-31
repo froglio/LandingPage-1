@@ -1,0 +1,127 @@
+@media screen and (max-width: 1230px) {
+    .container-form form {
+        top: -5px;
+    }
+}
+
+
+@media screen and (max-width: 1010px) {
+    header nav {
+        margin-left: 15%;
+    }
+
+    
+    .container-background {
+        height: 100%;
+
+        padding: 40px 2%;
+
+        text-align: center;
+    }
+
+
+    .container-list {
+        display: inline-block;
+        
+        width: 40%;
+        max-width: 500px;
+        height: auto;
+        
+        margin-top: 0;
+        padding: 30px 0;
+    }
+
+    .container-list ul > li {
+        font-size: 19px;
+
+        margin-left: 20px;
+    }
+}
+
+
+@media screen and (max-width: 750px) {
+    header {
+        text-align: center;
+
+        height: auto;
+    }
+    
+    header img{
+        position: relative;
+        
+        top: 0;
+        
+        transform: none;
+
+        margin-top: 10px;
+    }
+
+    header nav {
+        padding-top: 6px;
+        margin-left: 0;
+    }
+
+    header nav a {
+        margin-right: 2%;
+        margin-left: 2%;
+        margin-bottom: 10px;
+    }
+
+    
+    .container-background {
+        height: auto;
+    }
+
+
+    .container-list {
+        float: none;
+
+        width: 90%;
+    }
+
+
+    .container-form form {
+        float: none;
+
+        width: 100%;
+        max-width: 400px;
+
+        top: 0;
+
+        margin: 40px auto;
+    }
+    
+    
+    .container-pilot {
+        width: 100%;
+        
+        margin-right: 0;
+        margin-bottom: 50px;
+    }
+    
+    .container-pilot img {
+        width: 37%;
+    }
+
+    .container-pilot p {
+        text-align: center;
+    }
+
+
+    .section-pilots div:last-child {
+        margin-bottom: 0;
+    }
+
+
+
+    .input-container input[type=text],
+    .input-container input[type=email],
+    .input-container input[type=number] {
+        width: 95%;
+    }
+    
+    
+    .input-container-submit button[type=submit] {
+        width: 80%;
+    }
+}
