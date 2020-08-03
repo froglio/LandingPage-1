@@ -92,7 +92,7 @@ header nav a:hover {
     margin-top: 100px;
     padding: 30px;
 
-    background-color: #2b2f38BB;
+    background-color: rgba(43, 47, 56, 0.7);
 }
 
 .container-list ul {
